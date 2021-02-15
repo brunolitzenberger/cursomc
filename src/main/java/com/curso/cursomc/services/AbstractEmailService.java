@@ -42,7 +42,7 @@ public abstract class AbstractEmailService implements EmailService {
 		sm.setSubject("Solicitação de nova senha");
 		sm.setSentDate(new Date(System.currentTimeMillis()));
 		sm.setText("Nova senha: " + newPass);
-		return sm;
+		return sm;	
 	}
 	
 	
